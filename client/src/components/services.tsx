@@ -15,56 +15,56 @@ interface Service {
 
 const services: Service[] = [
   {
-    id: "document-photography",
-    title: "تصوير المستندات",
-    description: "تصوير احترافي لجميع أنواع المستندات والأوراق الرسمية بجودة عالية ووضوح ممتاز",
-    icon: "fas fa-camera",
-    features: ["جودة عالية وواضحة", "سرعة في التسليم", "أسعار منافسة"],
+    id: "preparatory-forms",
+    title: "استمارات الاعدادية",
+    description: "كل ما يخص استمارات الاعدادية وطرق التقديم والمتابعة اون لاين",
+    icon: "fas fa-file-text",
+    features: ["طرق التقديم الصحيحة", "متابعة حالة الاستمارة", "نصائح مهمة"],
     gradient: "from-blue-50 to-indigo-100",
     iconBg: "bg-primary"
   },
   {
-    id: "school-applications",
-    title: "تقديمات المدارس",
-    description: "مساعدة في إجراءات التقديم للمدارس وتجهيز الأوراق المطلوبة بدقة واحترافية",
-    icon: "fas fa-graduation-cap",
-    features: ["تجهيز كامل للأوراق", "متابعة حالة التقديم", "استشارة مجانية"],
+    id: "social-housing",
+    title: "شقق الاسكان الاجتماعي",
+    description: "كل ما يهمك عن شقق الاسكان الاجتماعي والتقديم والشروط المطلوبة",
+    icon: "fas fa-home",
+    features: ["شروط التقديم", "طريقة الحجز", "متابعة الطلبات"],
     gradient: "from-green-50 to-emerald-100",
     iconBg: "gradient-secondary"
   },
   {
-    id: "university-applications",
-    title: "تقديمات الجامعات",
-    description: "خدمات شاملة لتقديمات الجامعات وتجهيز الملفات الأكاديمية والأوراق المطلوبة",
-    icon: "fas fa-university",
-    features: ["إعداد الملف الأكاديمي", "ترجمة معتمدة", "متابعة شاملة"],
+    id: "online-applications",
+    title: "التقديمات اون لاين",
+    description: "كل ما يهمك عن التقديمات عن طريق النت وطرق التسجيل الصحيحة",
+    icon: "fas fa-laptop",
+    features: ["طرق التسجيل", "نصائح مهمة", "تجنب الأخطاء الشائعة"],
     gradient: "from-purple-50 to-violet-100",
     iconBg: "bg-purple-600"
   },
   {
-    id: "official-documents",
-    title: "الأوراق الرسمية",
-    description: "خدمات استخراج وتجديد الأوراق الرسمية والمستندات الحكومية بسرعة وسهولة",
-    icon: "fas fa-file-alt",
-    features: ["استخراج شهادات ميلاد", "تجديد البطاقة الشخصية", "خدمات جوازات السفر"],
+    id: "online-payments",
+    title: "الدفع الالكتروني",
+    description: "كيفية استخدام الفيزا والدفع اون لاين بأمان وسهولة",
+    icon: "fas fa-credit-card",
+    features: ["استخدام الفيزا بأمان", "طرق الدفع المختلفة", "تجنب عمليات النصب"],
     gradient: "from-orange-50 to-amber-100",
     iconBg: "gradient-accent"
   },
   {
-    id: "printing-services",
-    title: "خدمات الطباعة",
-    description: "طباعة عالية الجودة لجميع أنواع المستندات والتصاميم بألوان زاهية ووضوح ممتاز",
-    icon: "fas fa-print",
-    features: ["طباعة ملونة وأبيض وأسود", "أحجام مختلفة", "جودة احترافية"],
+    id: "job-applications",
+    title: "تقديم الوظائف",
+    description: "معلومات هامة عن تقديم الوظائف الحكومية والخاصة والمطلوب",
+    icon: "fas fa-briefcase",
+    features: ["الوظائف المتاحة", "شروط التقديم", "طرق التقديم الصحيحة"],
     gradient: "from-red-50 to-pink-100",
     iconBg: "bg-red-600"
   },
   {
-    id: "translation-services",
-    title: "خدمات الترجمة",
-    description: "ترجمة معتمدة ودقيقة للمستندات الرسمية والأكاديمية بجميع اللغات",
-    icon: "fas fa-language",
-    features: ["ترجمة معتمدة", "جميع اللغات", "دقة عالية"],
+    id: "general-help",
+    title: "مساعدة عامة",
+    description: "كل حاجة مش عارف تعملها - نساعدك في أي خدمة الكترونية",
+    icon: "fas fa-hands-helping",
+    features: ["مساعدة شخصية", "شرح مفصل", "متابعة حتى انتهاء المهمة"],
     gradient: "from-teal-50 to-cyan-100",
     iconBg: "bg-teal-600"
   }
@@ -82,7 +82,7 @@ export default function Services() {
           className="text-center mb-12"
         >
           <h3 className="text-3xl font-bold text-gray-800 mb-4">خدماتنا المتميزة</h3>
-          <p className="text-gray-600 text-lg">نوفر لك جميع الخدمات التي تحتاجها بسرعة وجودة عالية</p>
+          <p className="text-gray-600 text-lg">معلومات هامة تهمك - كل ما تحتاجه وانت في بيتك</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

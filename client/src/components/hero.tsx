@@ -19,7 +19,7 @@ export default function Hero() {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-4xl md:text-5xl font-bold text-gray-800 mb-6"
         >
-          نقدم لك أفضل الخدمات
+          كل ما تحتاجه من المنزل
         </motion.h2>
         
         <motion.p
@@ -28,7 +28,7 @@ export default function Hero() {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="text-xl text-gray-600 mb-8 leading-relaxed"
         >
-          مركز متخصص في تقديم خدمات التصوير والمستندات وتقديمات المدارس والجامعات بأعلى جودة واحترافية
+          معلومات هامة، استمارات الاعدادية، شقق الاسكان الاجتماعي، تقديمات اون لاين، دفع الكتروني وكل ما يهمك - كل حاجة وانت في بيتك
         </motion.p>
         
         <motion.div

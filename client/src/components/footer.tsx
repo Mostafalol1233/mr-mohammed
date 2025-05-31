@@ -15,10 +15,10 @@ export default function Footer() {
             <div className="bg-primary p-3 rounded-full">
               <i className="fas fa-star text-xl"></i>
             </div>
-            <h4 className="text-2xl font-bold">مركز الخدمات المتميزة</h4>
+            <h4 className="text-2xl font-bold">Mr Mohamed</h4>
           </div>
           
-          <p className="text-gray-400 mb-6">نحن نقدم أفضل الخدمات بجودة عالية وأسعار منافسة</p>
+          <p className="text-gray-400 mb-6">معلومات هامة وخدمات الكترونية متكاملة من المنزل</p>
           
           <div className="flex justify-center space-x-6 space-x-reverse mb-6">
             <a 
@@ -28,6 +28,14 @@ export default function Footer() {
               className="text-green-400 hover:text-green-300 transition-colors duration-300"
             >
               <i className="fab fa-whatsapp text-2xl"></i>
+            </a>
+            <a 
+              href="https://youtube.com/@mesternet-mo" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-red-400 hover:text-red-300 transition-colors duration-300"
+            >
+              <i className="fab fa-youtube text-2xl"></i>
             </a>
             <a 
               href="tel:01225556126" 

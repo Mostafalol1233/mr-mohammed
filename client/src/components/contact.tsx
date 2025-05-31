@@ -15,7 +15,7 @@ export default function Contact() {
         >
           <h3 className="text-3xl font-bold text-gray-800 mb-6">تواصل معنا الآن</h3>
           <p className="text-gray-600 text-lg mb-8">
-            نحن هنا لمساعدتك في جميع احتياجاتك. تواصل معنا عبر واتساب للحصول على استشارة مجانية
+            نحن هنا لمساعدتك في جميع احتياجاتك. تواصل معنا عبر واتساب أو شاهد قناتنا على يوتيوب للمزيد من المعلومات
           </p>
           
           <Card className="gradient-secondary text-white p-8 rounded-2xl shadow-lg mb-8">
@@ -39,7 +39,7 @@ export default function Contact() {
             </CardContent>
           </Card>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
             <motion.div
               initial={{ y: 30, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
@@ -59,9 +59,16 @@ export default function Contact() {
               viewport={{ once: true }}
               className="p-6"
             >
-              <i className="fas fa-clock text-primary text-3xl mb-3"></i>
-              <h4 className="font-bold text-gray-800 mb-2">ساعات العمل</h4>
-              <p className="text-gray-600">يومياً من 9 صباحاً إلى 10 مساءً</p>
+              <a 
+                href="https://youtube.com/@mesternet-mo" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block hover:transform hover:scale-105 transition-all duration-300"
+              >
+                <i className="fab fa-youtube text-red-600 text-3xl mb-3"></i>
+                <h4 className="font-bold text-gray-800 mb-2">قناتنا</h4>
+                <p className="text-gray-600">mesternet-mo</p>
+              </a>
             </motion.div>
             
             <motion.div
@@ -71,9 +78,22 @@ export default function Contact() {
               viewport={{ once: true }}
               className="p-6"
             >
+              <i className="fas fa-clock text-primary text-3xl mb-3"></i>
+              <h4 className="font-bold text-gray-800 mb-2">ساعات العمل</h4>
+              <p className="text-gray-600">يومياً من 9 صباحاً إلى 10 مساءً</p>
+            </motion.div>
+            
+            <motion.div
+              initial={{ y: 30, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.4, duration: 0.6 }}
+              viewport={{ once: true }}
+              className="p-6"
+            >
               <i className="fas fa-map-marker-alt text-primary text-3xl mb-3"></i>
-              <h4 className="font-bold text-gray-800 mb-2">الموقع</h4>
-              <p className="text-gray-600">متاح في جميع أنحاء الجمهورية</p>
+              <h4 className="font-bold text-gray-800 mb-2">العنوان</h4>
+              <p className="text-gray-600">ميدان بهتيم، شبرا الخيمة</p>
+              <p className="text-gray-500 text-sm" dir="ltr">Bahteem Square, Shubra El Kheima</p>
             </motion.div>
           </div>
         </motion.div>
