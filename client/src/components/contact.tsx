@@ -80,7 +80,7 @@ export default function Contact() {
             >
               <i className="fas fa-clock text-primary text-3xl mb-3"></i>
               <h4 className="font-bold text-gray-800 mb-2">ساعات العمل</h4>
-              <p className="text-gray-600">يومياً من 9 صباحاً إلى 10 مساءً</p>
+              <p className="text-gray-600">يومياً من 4 مساءً إلى 11 مساءً</p>
             </motion.div>
             
             <motion.div
