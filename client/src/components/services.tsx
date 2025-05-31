@@ -51,11 +51,11 @@ const services: Service[] = [
     iconBg: "gradient-accent"
   },
   {
-    id: "job-applications",
-    title: "تقديم الوظائف",
-    description: "معلومات هامة عن تقديم الوظائف الحكومية والخاصة والمطلوب",
-    icon: "fas fa-briefcase",
-    features: ["الوظائف المتاحة", "شروط التقديم", "طرق التقديم الصحيحة"],
+    id: "elementary-applications",
+    title: "تقديم ابتدائي",
+    description: "معلومات هامة عن تقديم الابتدائي وشهادة الميلاد والأوراق المطلوبة",
+    icon: "fas fa-graduation-cap",
+    features: ["شهادة الميلاد", "الأوراق المطلوبة", "طرق التقديم الصحيحة"],
     gradient: "from-red-50 to-pink-100",
     iconBg: "bg-red-600"
   },
