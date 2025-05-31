@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
           
           <div className="border-t border-gray-700 pt-6">
-            <p className="text-gray-400">&copy; 2024 مركز الخدمات المتميزة. جميع الحقوق محفوظة.</p>
+            <p className="text-gray-400">&copy; 2024 Mr Mohamed. جميع الحقوق محفوظة.</p>
           </div>
         </motion.div>
       </div>
