@@ -36,7 +36,7 @@ app.use((req, res, next) => {
   next();
 });
 
-async function initializeServer() {
+(async () => {
   const server = await registerRoutes(app);
 
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
@@ -56,20 +56,8 @@ async function initializeServer() {
     serveStatic(app);
   }
 
-  return { app, server };
-}
-
-// For Vercel deployment
-if (process.env.VERCEL) {
-  initializeServer().then(({ app: vercelApp }) => {
-    // Export the app for Vercel
-    module.exports = vercelApp;
-  });
-} else {
-  // For local development
-  (async () => {
-    const { server } = await initializeServer();
-    
+  // Only start server if not in Vercel
+  if (!process.env.VERCEL) {
     const port = 5000;
     server.listen({
       port,
@@ -78,8 +66,8 @@ if (process.env.VERCEL) {
     }, () => {
       log(`serving on port ${port}`);
     });
-  })();
-}
+  }
+})();
 
 // Export for Vercel
 export default app;
