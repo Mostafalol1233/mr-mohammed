@@ -18,9 +18,7 @@ export default function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-4xl md:text-5xl font-bold text-gray-800 mb-6"
-        >
-          كل ما تحتاجه من المنزل
-        </motion.h2>
+        >كل ما تحتاجه من المركز</motion.h2>
         
         <motion.p
           initial={{ y: 50, opacity: 0 }}
