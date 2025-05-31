@@ -15,10 +15,10 @@ export default function Footer() {
             <div className="bg-primary p-3 rounded-full">
               <i className="fas fa-star text-xl"></i>
             </div>
-            <h4 className="text-2xl font-bold">Mr Mohamed</h4>
+            <h4 className="text-2xl font-bold">Mr. Mohammed</h4>
           </div>
           
-          <p className="text-gray-400 mb-6">معلومات هامة وخدمات الكترونية متكاملة من المنزل</p>
+          <p className="text-gray-400 mb-6">معلومات هامة وخدمات متكاملة</p>
           
           <div className="flex justify-center space-x-6 space-x-reverse mb-6">
             <a 
@@ -46,7 +46,10 @@ export default function Footer() {
           </div>
           
           <div className="border-t border-gray-700 pt-6">
-            <p className="text-gray-400">&copy; 2024 Mr Mohamed. جميع الحقوق محفوظة.</p>
+            <p className="text-gray-400">&copy; 2024 Mr. Mohammed. جميع الحقوق محفوظة.</p>
+            <p className="text-gray-500 text-sm mt-2">
+              Developed by <a href="https://linktr.ee/Mustafa_Bemo" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">Mustafa</a> with ❤️
+            </p>
           </div>
         </motion.div>
       </div>

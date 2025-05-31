@@ -15,8 +15,8 @@ export default function Header() {
               <i className="fas fa-star text-xl"></i>
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-primary">Mr Mohamed</h1>
-              <p className="text-gray-600 text-sm">خدمات الكترونية متكاملة</p>
+              <h1 className="text-2xl font-bold text-primary">Mr. Mohammed</h1>
+              <p className="text-gray-600 text-sm">خدمات متكاملة</p>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-4 space-x-reverse">

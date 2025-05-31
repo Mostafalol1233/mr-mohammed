@@ -28,7 +28,7 @@ export default function Hero() {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="text-xl text-gray-600 mb-8 leading-relaxed"
         >
-          معلومات هامة، استمارات الاعدادية، شقق الاسكان الاجتماعي، تقديمات اون لاين، دفع الكتروني وكل ما يهمك - كل حاجة وانت في بيتك
+          معلومات هامة، استمارات الاعدادية، شقق الاسكان الاجتماعي، وكل ما يهمك - زوروا مكتبنا في ميدان بهتيم
         </motion.p>
         
         <motion.div

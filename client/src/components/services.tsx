@@ -33,20 +33,20 @@ const services: Service[] = [
     iconBg: "gradient-secondary"
   },
   {
-    id: "online-applications",
-    title: "التقديمات اون لاين",
-    description: "كل ما يهمك عن التقديمات عن طريق النت وطرق التسجيل الصحيحة",
-    icon: "fas fa-laptop",
-    features: ["طرق التسجيل", "نصائح مهمة", "تجنب الأخطاء الشائعة"],
+    id: "office-visit",
+    title: "زيارة المكتب",
+    description: "زوروا مكتبنا في ميدان بهتيم، شبرا الخيمة للحصول على الخدمات مباشرة",
+    icon: "fas fa-building",
+    features: ["خدمة مباشرة", "استشارة شخصية", "سرعة في الإنجاز"],
     gradient: "from-purple-50 to-violet-100",
     iconBg: "bg-purple-600"
   },
   {
-    id: "online-payments",
-    title: "الدفع الالكتروني",
-    description: "كيفية استخدام الفيزا والدفع اون لاين بأمان وسهولة",
-    icon: "fas fa-credit-card",
-    features: ["استخدام الفيزا بأمان", "طرق الدفع المختلفة", "تجنب عمليات النصب"],
+    id: "documents-help",
+    title: "مساعدة في الأوراق",
+    description: "نساعدك في تجهيز وإعداد جميع الأوراق والمستندات المطلوبة",
+    icon: "fas fa-file-alt",
+    features: ["تجهيز الأوراق", "مراجعة المستندات", "نصائح مهمة"],
     gradient: "from-orange-50 to-amber-100",
     iconBg: "gradient-accent"
   },
